@@ -3,8 +3,11 @@ body{
     margin: -8px;
 }
 nav{
-    background: rgb(1,36,0);
-    background: linear-gradient(90deg, rgba(1,36,0,1) 0%, rgba(38,73,3,1) 0%, rgba(70,221,55,1) 90%, rgba(192,255,71,1) 100%, rgba(153,224,56,1) 100%);
+    background: #084911; /* fallback color if gradients are not supported*/ 
+    background: -webkit-linear-gradient(118deg,#084911, #385F1E, #5F8D1D, #87BD1D);
+    background: -moz-linear-gradient(118deg,#084911, #385F1E, #5F8D1D, #87BD1D);
+    background: -o-linear-gradient(118deg,#084911, #385F1E, #5F8D1D, #87BD1D);
+    background: linear-gradient(118deg,#084911, #385F1E, #5F8D1D, #87BD1D);
     display: flex;
     justify-content: flex-end;
 }
