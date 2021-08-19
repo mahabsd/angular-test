@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    height: 100vh;
+    background: rgb(1,36,0);
+    background: linear-gradient(90deg, rgba(1,36,0,1) 0%, rgba(38,73,3,1) 0%, rgba(70,221,55,1) 90%, rgba(192,255,71,1) 100%, rgba(153,224,56,1) 100%);
+    justify-content: center;
+    align-items: center;
+    width: screen;
+    margin: -8px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.person-svg{
+    background-color: rgb(231, 227, 227);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+svg{
+    align-self: center;
+}
+input{
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    border:2px solid white;
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+}
+input::placeholder{
+    color: white;
+    font-size: 13px;
+}
+input:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40PX;
+    background-color: transparent;
+    border: none;
+    align-self: center;
+}
+.login-svg{
+    background-color: rgb(231, 227, 227);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+border: none;
+fill: white;
+}
